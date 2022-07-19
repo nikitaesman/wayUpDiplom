@@ -1,0 +1,222 @@
+/* ------ Media Queries ------ */
+
+/* 992-1200 */
+@media screen and (max-width: 1200px) {
+    .burger {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+    }
+    .advantages__text {
+        width: 100%;
+    }
+    .nav-crumbs {
+        margin: 30px auto; 
+        width: 545px;
+    }
+    .about__head {
+        text-align: center;
+    }
+    .about__main {
+        justify-content: center;
+    }
+    .сapacities__item {
+        width: 220px;
+    }
+    .lawyers {
+        background-attachment: scroll;
+    }
+}
+
+/* 768-992 */
+@media screen and (max-width: 992px) {
+    .news__text {
+        width: 100%;
+    }
+    .news__date {
+        margin-top: 5px;
+    }
+    .mission__button {
+        margin-bottom: 50px;
+    }
+    .mission {
+        padding-bottom: 40px;
+        background: #5d687b;
+    } 
+    .footer__logo {
+        display: block;
+        margin-top: 40px;
+    }
+    .footer__logo img {
+        width: 200px;
+    }
+    .сapacities__item {
+        width: 160px;
+    }
+    .overlay .fa-expand-arrows-alt {
+        display: none;
+    }
+    .overlay .fa-expand {
+        display: block;
+    }
+    .advantages__title:after {
+        top: 235px;
+    }
+    .lawyers__text {
+        width: 100%;
+    }
+    .consultation {
+        margin-bottom: 45px;
+    }
+    .services-crumbs {
+        margin-top: 47px;
+    }
+    .services__head {
+        text-align: center;
+    }
+    .services__main {
+        justify-content: center;
+    }
+    .map__content {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+/* 576-768 */
+@media screen and (max-width: 768px) {
+    .logo img {
+        width: 280px;
+    }
+    .footer__logo img {
+        display: block;
+        margin: 0px auto;  
+    }
+    .footer__feedback {
+        text-align: center; 
+    }
+    .footer__address {
+        margin-top: 35px;
+        text-align: center;
+    }
+    .footer__wayup {
+        justify-content: center; 
+    }
+    .footer__rights {
+        text-align: center;
+    }
+    .footer__tel {
+        margin: 35px auto;  
+    }
+    .сapacities__item {
+        width: 230px;
+    }
+    .advantages__title:after {
+        top: 300px;
+    }
+    .services-crumbs {
+        flex-direction: column;
+    }
+    .services-crumbs a {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .lawyers__title {
+        margin: 30px auto; 
+    }
+}
+
+/* 320-576 */
+@media screen and (max-width: 576px) {
+    .logo img {
+        width: 180px;
+    }
+    .tel {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-top: 0px;
+        width: 40px;
+        height: 40px;
+        margin-left: 30px; 
+    }
+    .tel i {
+        margin: 0px; 
+        font-size: 20px;
+    }
+    .tel span {
+        display: none;
+    }
+    .mission__content {
+        flex-direction: column;
+    }
+    .topics__item {
+        text-align: center;
+    }
+    .burger {
+        margin-top: 7px;
+    }
+    .offer__text {
+        width: 100%;
+    }
+    header {
+        padding-bottom: 125px;
+    }
+    .сapacities__item {
+        margin: 26px auto 0px;
+        width: 270px;
+    }
+    .about-crumbs {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-crumbs a {
+        display: block;
+        margin-top: 10px;
+    }
+    .nav-crumbs {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-crumbs li {
+        margin-bottom: 30px;
+    }
+    .advantages__item {
+        flex-direction: column;
+    } 
+    .advantages__img {
+        margin-bottom: 35px;
+    }
+    .consultation {
+        width: 100%;
+        text-align: center;
+    }
+    .consultation__action {
+        flex-direction: column;
+        text-align: center;
+    }
+    .consultation__button {
+        margin: 0px auto;
+    }
+    .map__info {
+        flex-direction: column;
+    }
+    .map_text {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .map__head {
+        flex-direction: column;
+    }
+    .formtel {
+        width: 100%;
+    }
+}
